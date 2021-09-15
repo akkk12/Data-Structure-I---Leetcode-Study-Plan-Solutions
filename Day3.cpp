@@ -1,5 +1,6 @@
 //121. Best Time to Buy and Sell Stock
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+// it also has a DP Solution  
 
 int maxProfit(vector<int>& prices) {
         int maxPrice = 0 ;
@@ -15,7 +16,7 @@ int maxProfit(vector<int>& prices) {
 
 // 350. Intersection of Two Arrays II
 //https://leetcode.com/problems/intersection-of-two-arrays-ii/
-// it also has a DP Solution  
+
    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
         unordered_map<int,int> map ;
         vector<int> ans ;
